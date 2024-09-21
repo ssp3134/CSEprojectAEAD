@@ -1,3 +1,5 @@
+# This script includes utility functions and classes for data generation, preprocessing, and early stopping during training.
+
 import torch 
 from torch.utils.data import Dataset, DataLoader
 import numpy as np

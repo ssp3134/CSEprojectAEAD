@@ -1,3 +1,15 @@
+# Defines the Autoencoder neural network architecture using PyTorch.
+
+# Key Components
+# AEArch Class
+# Purpose: Implements the Autoencoder architecture.
+# Architecture:
+# Encoder: Compresses the input data into a latent space.
+# Encoded Space: A bottleneck layer representing the compressed data.
+# Decoder: Reconstructs the data from the latent representation.
+# Activation Functions: Uses SELU (Scaled Exponential Linear Unit) for non-linearity.
+# Forward Method: Defines the forward pass through the network.
+
 from torch import nn 
 
 class AEArch(nn.Module):
